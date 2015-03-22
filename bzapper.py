@@ -36,7 +36,7 @@ class Bzapper:
 	def PackageFiles(self):
 		print('Starting compression of files!')
 	
-		while len(self.validFilepaths) > 1:
+		while len(self.validFilepaths) > 0:
 			if self.maxProcesses > 0:
 				self.maxProcesses -= 1
 
